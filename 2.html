@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Azazel album</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+  <style>
+    body{
+      background-color: black;
+      
+    }
+    .h1{
+   color: white;   
+   padding: 35px;
+   font-size: 50px;
+    }
+    audio{
+      background-color: black;
+      border: 3px solid green;
+      border-radius:20px;
+      box-shadow: none;
+    }
+    p1{
+      color: white;
+      font-size: 40px;
+      font-family: cursive;
+    }
+audio::-webkit-media-controls-panel {
+     background-color: black;
+     border: 3px solid green;
+}
+audio::-webkit-media-controls-play-button {
+     background-color: green;
+     border-radius: 20px;
+}
+audio::-webkit-media-controls-timeline {
+      background-color: green;
+      border-radius:20px ;
+}
+audio::-webkit-media-controls-current-time-display {
+color: green;
+text-shadow: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: green;
+  text-shadow: none;
+}
+  </style>
+</head>
+<body>
+  <h1 class="h1">Azazel's album ></h1>
+  <audio controls class="audio">
+  <source src="/love is void.mp3" type="audio/mp3">
+</audio>
+<p1>Love is void</p1>
+</body>
+</html>
